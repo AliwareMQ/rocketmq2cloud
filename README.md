@@ -1,9 +1,9 @@
 ## RocketMQ 2 Cloud
 	
 ### 接入说明
-   该Demo旨在帮助RocketMQ的用户无缝迁移到[阿里云上RocketMQ](https://www.aliyun.com/product/ons?spm=5176.8142029.388261.288.65o5Wc)
+  该Demo旨在帮助RocketMQ的用户无缝迁移到[阿里云上RocketMQ](https://www.aliyun.com/product/ons?spm=5176.8142029.388261.288.65o5Wc)
    
-1. 本Demo使用RocketMQ Clinet 3.6.2，如需使用更高版本，则参照本Demo改(需要重写RPCHook，将com.alibaba的包替换成org.apache) 
+1. 本Demo使用RocketMQ Clinet 3.6.2，更高版本请参考仓库： https://github.com/AliwareMQ/aliware-apache-rocketmq-cloud
 2. 使用之前需要先申请Topic, Producer ID, Consumer ID，详情请参考[申请MQ资源](https://help.aliyun.com/document_detail/29536.html?spm=5176.doc29546.2.2.gWIToO)
 3. 如果没有申请相关资源，则会直接导致鉴权失败
 4. 暂时不支持云上的定时消息与事务消息，如需使用请利用[云上专用客户端OnsClient](https://help.aliyun.com/document_detail/52591.html?spm=5176.doc44711.6.585.khZCA4)
